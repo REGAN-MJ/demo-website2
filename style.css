@@ -92,3 +92,28 @@ nav>ul>li>a:hover{
     list-style: disc inside;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+
+@media screen and (max-width: 800px){
+    main{
+        background-color: lightgray;
+        flex-direction: row;
+    }
+    section{
+        background-color: lightgray;
+        flex-direction: column;
+    }
+}
+
